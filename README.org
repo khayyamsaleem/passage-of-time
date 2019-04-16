@@ -1,0 +1,17 @@
+#+TITLE: Bicycle Day
+
+* Project Description
+ This project is titled "Bicycle Day." During hallucinogenic experiences induced by the consumption of lysergic acid diethylamide, one often feels that time is distorted. A typical "trip" lasts 8-12 hours. The creator of LSD, Albert Hofmann, first experimented with the drug on April 19th, 1943. Shortly after, he went on a bicycle ride during which he realized the drug's true power. This project represents the combination of this lore with the feeling of time distortion to create a celebration of Bicycle Day through art. 
+
+* Technical Description
+
+ The bicycle stand contains a photoresistor, which has its light source interrupted by a wedge of black paper embedded in the bicycle's spokes. This interruption is captured by a transistor, which then flips states and sends a digital signal to the Arduino. These flashes are then used to compute the wheel's RPM, which is then scaled to adjust the speed of the clock's hand and walk you through the "trip" described by the art on the clock face.
+
+
+* Photos
+
+[[./side-view.jpg]]
+
+[[./clock-face.jpg]]
+
+[[./wheel-base.jpg]]
